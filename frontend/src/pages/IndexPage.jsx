@@ -21,7 +21,7 @@ const IndexPage = () => {
       return (
         <Link to={`/place/${place._id}`}>
           <div className={"aspect-square rounded-xl overflow-hidden"}>
-          <img src={`http://localhost:4000/uploads/${place.photos[0]}`}/>
+          <img src={`https://booking-app-backend-259f.onrender.com/${place.photos[0]}`}/>
           </div>
           <h2 className={`mt-4 font-bold ${truncate}`}>{place.address}</h2>
           <h2>{place.title}</h2>

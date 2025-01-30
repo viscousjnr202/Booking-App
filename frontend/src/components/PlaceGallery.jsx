@@ -6,7 +6,7 @@ const PlaceGallery = ({place, setShowPhotos}) => {
         <div>
           <div>
             <img
-              src={`http://localhost:4000/uploads/${place?.photos[0]}`}
+              src={`https://booking-app-backend-259f.onrender.com/${place?.photos[0]}`}
               alt=""
               className="aspect-square object-cover cursor-pointer"
               onClick={() => setShowPhotos(true)}
@@ -16,7 +16,7 @@ const PlaceGallery = ({place, setShowPhotos}) => {
         <div>
           <div>
             <img
-              src={`http://localhost:4000/uploads/${place?.photos[1]}`}
+              src={`https://booking-app-backend-259f.onrender.com/${place?.photos[1]}`}
               alt=""
               className="aspect-square object-cover cursor-pointer"
               onClick={() => setShowPhotos(true)}
@@ -24,7 +24,7 @@ const PlaceGallery = ({place, setShowPhotos}) => {
           </div>
           <div className="overflow-hidden">
             <img
-              src={`http://localhost:4000/uploads/${place?.photos[2]}`}
+              src={`https://booking-app-backend-259f.onrender.com/${place?.photos[2]}`}
               alt=""
               className="aspect-square object-cover relative top-2 cursor-pointer"
               onClick={() => setShowPhotos(true)}

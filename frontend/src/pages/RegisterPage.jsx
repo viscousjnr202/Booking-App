@@ -12,10 +12,10 @@ const RegisterPage = () => {
     e.preventDefault()
     try {
       await axiosInstance.post('/register', {name, email, password})  
-      alert('User registered successfully')
+      // alert('User registered successfully')
       setRedirect(true)
     } catch (error) {
-      alert('Failed to Registered')
+      // alert('Failed to Registered')
     }
   }
 

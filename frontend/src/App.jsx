@@ -12,7 +12,7 @@ import BookingsPage from "./pages/BookingsPage";
 import BookingPage from "./components/BookingPage";
 
 export const axiosInstance = axios.create({
-  baseURL : 'http://localhost:4000',
+  baseURL : "https://booking-app-backend-259f.onrender.com",
   withCredentials: true
 
 })
